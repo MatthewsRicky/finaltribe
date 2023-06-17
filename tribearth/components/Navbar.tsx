@@ -14,7 +14,7 @@ const Navbar = () => {
         />
       </div>
       <div>
-        <ul>
+        <ul className="flex">
           <li>About</li>
           <li>Artisans</li>
           <li>Cart</li>
