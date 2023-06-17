@@ -10,6 +10,11 @@ const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleClick = () => {
+    if (isOpen) {
+      setIsOpen(!isOpen);
+  }
+
 
 
   return (
@@ -35,5 +40,5 @@ const Navbar = () => {
     </div>
   )
 }
-
+}
 export default Navbar
