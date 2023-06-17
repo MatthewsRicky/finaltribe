@@ -15,11 +15,12 @@ const Navbar = () => {
       </div>
       <div>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>About</li>
+          <li>Artisans</li>
+          <li>Cart</li>
+          <li>Impact</li>
+          <li>Shop</li>
+          <li>Vegan Cafe</li>
         </ul>
       </div>
     </div>
