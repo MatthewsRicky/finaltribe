@@ -3,6 +3,8 @@
 import Image from "next/image"
 import { useState } from "react"
 import {AiOutlineMenu} from "react-icons/ai"
+import Link from "next/link"
+import Router from "next/navigation"
 
 const Navbar = () => {
 
