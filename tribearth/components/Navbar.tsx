@@ -13,6 +13,15 @@ const Navbar = () => {
           height={80}
         />
       </div>
+      <div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
     </div>
   )
 }
