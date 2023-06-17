@@ -14,7 +14,7 @@ const Navbar = () => {
         />
       </div>
       <div>
-        <ul className="flex">
+        <ul className="flex gap-4">
           <li>About</li>
           <li>Artisans</li>
           <li>Cart</li>
