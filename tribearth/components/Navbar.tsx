@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { useState } from "react"
-import {AiOutlineMenu} from "react-icons/ai"
+import {AiOutlineMenu, AiFillShopping} from "react-icons/ai"
 import Link from "next/link"
 import Router from "next/navigation"
 
@@ -21,9 +21,9 @@ const Navbar = (
   } 
 
   return (
-    <div>
-      <div className="hidden md:flex absolute w-full top-0 right-0 left-0 bg-emerald-100/90 justify-between items-center gap-4 px-4 py-6">
-      <div className="flex">
+    <div className="">
+      <div className="w-full top-0 right-0 left-0 bg-emerald-100/90 justify-between items-center gap-4 px-4 py-6">
+      <div className="">
         <Link href="/">
           <Image 
             src={"/images/Tribearth logo.png"}
@@ -34,13 +34,12 @@ const Navbar = (
         </Link>
       </div>
       <div>
-        <Image 
-          typeof="icon"
-          src={AiOutlineMenu}
-          alt="menu button"
-        />
+       <button className="flex flex-col md:hidden"
+       onClick={handleClick}>
+        <AiOutlineMenu size={24}/>
+       </button>
       <div 
-        className=""
+        className={`${ isOpen ? 'flex': 'hidden'}`}
         onClick={handleClick}
       >
         <ul className="flex gap-4">
@@ -58,6 +57,11 @@ const Navbar = (
           </Link>
           <Link href="/shop">
             <li>Shop</li>
+          </Link>
+          <Link href="/cart">
+            <li>
+              <AiFillShopping size={24}/>
+            </li>
           </Link>
           
         </ul>
