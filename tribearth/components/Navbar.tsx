@@ -13,36 +13,47 @@ const Navbar = (
 ) => {
 
   const [isOpen, setIsOpen] = useState(false);
-
+ 
   const handleClick = () => {
-    if (isOpen) {
-      setIsOpen(!isOpen);
-  }
-
-
+    if (isOpen){
+      setIsOpen(!isOpen)
+    }
+  } 
 
   return (
     <div className="flex absolute w-full top-0 right-0 left-0 bg-emerald-100/90 justify-between items-center gap-4 px-4 py-6">
       <div>
-        <Image 
-          src={"/images/Tribearth logo.png"}
-          alt="logo"
-          width={80}
-          height={80}
-        />
+        <Link href="/">
+          <Image 
+            src={"/images/Tribearth logo.png"}
+            alt="logo"
+            width={80}
+            height={80}
+          />
+        </Link>
       </div>
       <div>
         <ul className="flex gap-4">
-          <li>About</li>
-          <li>Artisans</li>
-          <li>Cart</li>
-          <li>Impact</li>
-          <li>Shop</li>
-          <li>Vegan Cafe</li>
+          <Link href="/about">
+            <li>About</li>
+          </Link>
+          <Link href="/artisans">
+            <li>Artisans</li>
+          </Link>
+          <Link href="/about">
+            <li>About</li>
+          </Link>
+          <Link href="/about">
+            <li>About</li>
+          </Link>
+          <Link href="/about">
+            <li>About</li>
+          </Link>
+          
         </ul>
       </div>
     </div>
   )
 }
-}
+
 export default Navbar
