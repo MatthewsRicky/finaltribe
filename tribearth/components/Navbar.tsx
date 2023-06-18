@@ -40,14 +40,14 @@ const Navbar = (
           <Link href="/artisans">
             <li>Artisans</li>
           </Link>
-          <Link href="/about">
-            <li>About</li>
+          <Link href="/impact">
+            <li>Impact</li>
           </Link>
-          <Link href="/about">
-            <li>About</li>
+          <Link href="/vegancafe">
+            <li>Vegan Cafe</li>
           </Link>
-          <Link href="/about">
-            <li>About</li>
+          <Link href="/shop">
+            <li>Shop</li>
           </Link>
           
         </ul>
