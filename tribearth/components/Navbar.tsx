@@ -6,7 +6,11 @@ import {AiOutlineMenu} from "react-icons/ai"
 import Link from "next/link"
 import Router from "next/navigation"
 
-const Navbar = () => {
+//@ts-check
+
+
+const Navbar = (
+) => {
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +22,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="hidden md:flex absolute w-full top-0 right-0 left-0 bg-emerald-100/90 justify-between items-center gap-4 px-4 py-6">
+    <div className="flex absolute w-full top-0 right-0 left-0 bg-emerald-100/90 justify-between items-center gap-4 px-4 py-6">
       <div>
         <Image 
           src={"/images/Tribearth logo.png"}
