@@ -23,7 +23,7 @@ const Navbar = (
   return (
     <div className="">
       <div className="w-full top-0 right-0 left-0 bg-emerald-100/90 justify-between items-center gap-4 px-4 py-6">
-      <div className="">
+      <div className="flex justify-between">
         <Link href="/">
           <Image 
             src={"/images/Tribearth logo.png"}
@@ -32,14 +32,15 @@ const Navbar = (
             height={80}
           />
         </Link>
-      </div>
-      <div>
-       <button className="flex flex-col md:hidden"
+        <button className="flex flex-col md:hidden"
        onClick={handleClick}>
         <AiOutlineMenu size={24}/>
        </button>
+      </div>
+      <div>
+      
       <div 
-        className={`${ isOpen ? 'flex': 'hidden'}`}
+        className={`hidden md:flex ${ isOpen ? 'flex': 'hidden'}`}
         onClick={handleClick}
       >
         <ul className="flex gap-4">
