@@ -4,7 +4,6 @@ import Image from "next/image"
 import { useState } from "react"
 import {AiOutlineMenu, AiFillShopping} from "react-icons/ai"
 import Link from "next/link"
-import Router from "next/navigation"
 
 //@ts-check
 
@@ -17,7 +16,7 @@ const Navbar = (
   const handleClick = () => {
     if (isOpen){
       setIsOpen(!isOpen)
-    }
+    } else (Error) 
   } 
 
   return (
@@ -40,8 +39,8 @@ const Navbar = (
       <div>
       
       <div 
-        className={`md:flex w-full absolute ${ isOpen ? 'flex': 'hidden'}`}
-        onClick={handleClick}
+        className={`relative flex-col w-full ${ isOpen ? 'flex': 'hidden'}`}
+        onClick={handleClick()}
       >
         <ul className="flex gap-4">
           <Link href="/about">
