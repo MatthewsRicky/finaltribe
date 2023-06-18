@@ -34,6 +34,15 @@ const Navbar = (
         </Link>
       </div>
       <div>
+        <Image 
+          typeof="icon"
+          src={AiOutlineMenu}
+          alt="menu button"
+        />
+      <div 
+        className=""
+        onClick={handleClick}
+      >
         <ul className="flex gap-4">
           <Link href="/about">
             <li>About</li>
@@ -53,6 +62,8 @@ const Navbar = (
           
         </ul>
       </div>
+      </div>
+      
     </div>
     </div>
     
