@@ -21,8 +21,9 @@ const Navbar = (
   } 
 
   return (
-    <div className="flex absolute w-full top-0 right-0 left-0 bg-emerald-100/90 justify-between items-center gap-4 px-4 py-6">
-      <div>
+    <div>
+      <div className="hidden md:flex absolute w-full top-0 right-0 left-0 bg-emerald-100/90 justify-between items-center gap-4 px-4 py-6">
+      <div className="flex">
         <Link href="/">
           <Image 
             src={"/images/Tribearth logo.png"}
@@ -53,6 +54,8 @@ const Navbar = (
         </ul>
       </div>
     </div>
+    </div>
+    
   )
 }
 
