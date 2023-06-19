@@ -31,7 +31,7 @@ const Navbar = (
           </li>
           <li>
             <button 
-              className="flex flex-col md:hidden rounded justify-center p-2 items-center hover:text-neutral-100 hover:bg-emerald-500/90 text-emerald-500/90 text-center transition-all duration-300"
+              className="flex flex-col md:hidden rounded-full justify-center p-2 items-center hover:text-neutral-100 hover:bg-emerald-500/90 text-emerald-500/90 text-center transition-all duration-300"
               onClick={() => setIsOpen(!isOpen)}>
                 {isOpen ? (<BiXCircle size={24} />) : (
                   
@@ -41,8 +41,7 @@ const Navbar = (
             </button>
           </li>
         </ul>
-        </div>
-      <div 
+        <div 
         className={`relative flex md:flex justify-between items-center w-full ${ isOpen ? 'block': 'hidden'}`}
       >
         <ul className="w-full flex  md:bg-transparent mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300  bg-opacity-60 ">
@@ -69,6 +68,8 @@ const Navbar = (
           
         </ul>
       </div>
+        </div>
+      
       </div>
       
   
