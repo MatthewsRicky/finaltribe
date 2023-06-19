@@ -11,7 +11,7 @@ import Link from "next/link"
 const Navbar = (
 ) => {
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
  
   const handleClick = () => {
     if (isOpen){
@@ -39,7 +39,7 @@ const Navbar = (
       <div>
       
       <div 
-        className={`relative flex-col w-full ${ isOpen ? 'flex': 'hidden'}`}
+        className={`relative flex-col md:flex justify-between items-center w-full ${ isOpen ? 'flex': 'hidden'}`}
         onClick={handleClick}
       >
         <ul className="flex gap-4">
