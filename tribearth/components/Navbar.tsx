@@ -16,7 +16,7 @@ const Navbar = (
   const handleClick = () => {
     if (isOpen){
       setIsOpen(!isOpen)
-    } else (Error) 
+    } else (isOpen) 
   } 
 
   return (
