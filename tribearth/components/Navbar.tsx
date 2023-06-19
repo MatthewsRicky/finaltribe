@@ -22,8 +22,11 @@ const Navbar = (
   return (
     <div className="relative w-full">
       <div className="w-full flex bg-emerald-100/90 items-center gap-4 px-4 py-6">
-      <div className="flex w-fit">
-        <Link href="/">
+      
+
+        <ul>
+          <li>
+          <Link href="/">
           <Image 
             src={"/images/Tribearth logo.png"}
             alt="logo"
@@ -31,11 +34,18 @@ const Navbar = (
             height={80}
           />
         </Link>
-        <button className="flex flex-col md:hidden"
+          </li>
+          <li>
+          <button className="flex flex-col md:hidden"
        onClick={handleClick}>
         <AiOutlineMenu size={24}/>
        </button>
-      </div>
+          </li>
+        </ul>
+
+        
+       
+      
       <div>
       
       <div 
