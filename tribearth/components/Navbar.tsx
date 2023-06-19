@@ -11,7 +11,7 @@ import Link from "next/link"
 const Navbar = (
 ) => {
 
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
  
   const handleClick = () => {
     if (isOpen){
@@ -22,36 +22,30 @@ const Navbar = (
   return (
     <div className="relative w-full">
       <div className="w-full flex bg-emerald-100/90 items-center gap-4 px-4 py-6">
-      
-
         <ul>
           <li>
-          <Link href="/">
-          <Image 
-            src={"/images/Tribearth logo.png"}
-            alt="logo"
-            width={80}
-            height={80}
-          />
-        </Link>
+            <Link href="/">
+              <Image 
+                src={"/images/Tribearth logo.png"}
+                alt="logo"
+                width={80}
+                height={80}
+              />
+            </Link>
           </li>
           <li>
-          <button className="flex flex-col md:hidden"
-       onClick={handleClick}>
-        <AiOutlineMenu size={24}/>
-       </button>
+            <button 
+              className="flex flex-col md:hidden"
+              onClick={handleClick}>
+                {isOpen ? }
+                <AiOutlineMenu size={24}/>
+            </button>
           </li>
         </ul>
-
-        
-       
-      
-
-      
       <div 
         className={`relative flex-col md:flex justify-between items-center w-full ${ isOpen ? 'flex': 'hidden'}`}
       >
-        <ul className="flex gap-4">
+        <ul className="flex flex-col gap-4">
           <Link href="/about">
             <li>About</li>
           </Link>
