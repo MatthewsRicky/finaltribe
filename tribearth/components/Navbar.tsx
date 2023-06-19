@@ -46,11 +46,10 @@ const Navbar = (
         
        
       
-      <div>
+
       
       <div 
         className={`relative flex-col md:flex justify-between items-center w-full ${ isOpen ? 'flex': 'hidden'}`}
-        onClick={handleClick}
       >
         <ul className="flex gap-4">
           <Link href="/about">
@@ -78,7 +77,7 @@ const Navbar = (
       </div>
       </div>
       
-    </div>
+  
     </div>
     
   )
