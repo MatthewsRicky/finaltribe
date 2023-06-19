@@ -3,6 +3,7 @@
 import Image from "next/image"
 import { useState } from "react"
 import {AiOutlineMenu, AiFillShopping} from "react-icons/ai"
+import {BiXCircle} from "react-icons/bi"
 import Link from "next/link"
 
 //@ts-check
@@ -14,15 +15,14 @@ const Navbar = (
   const [isOpen, setIsOpen] = useState(false);
  
   const handleClick = () => {
-    if (isOpen){
+    if (isOpen)
       setIsOpen(!isOpen)
-    } else (isOpen) 
-  } 
+  }
 
   return (
     <div className="relative w-full">
       <div className="w-full flex bg-emerald-100/90 items-center gap-4 px-4 py-6">
-        <ul>
+        <ul className="">
           <li>
             <Link href="/">
               <Image 
@@ -35,17 +35,21 @@ const Navbar = (
           </li>
           <li>
             <button 
-              className="flex flex-col md:hidden"
+              className="flex flex-col md:hidden rounded-full justify-center p-4 items-center hover:text-neutral-100 hover:bg-emerald-500/90 text-emerald-500/90 w-20 text-center transition-all duration-300"
               onClick={handleClick}>
-                {isOpen ? }
-                <AiOutlineMenu size={24}/>
+                {isOpen ? (<BiXCircle size={24} />) : (
+                  
+                  <AiOutlineMenu size={24}/>
+                ) }
+                
             </button>
           </li>
         </ul>
+        </div>
       <div 
-        className={`relative flex-col md:flex justify-between items-center w-full ${ isOpen ? 'flex': 'hidden'}`}
+        className={`relative flex md:flex justify-between items-center w-full ${ isOpen ? 'flex': 'hidden'}`}
       >
-        <ul className="flex flex-col gap-4">
+        <ul className="w-full flex  md:bg-transparent mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300  bg-opacity-60 ">
           <Link href="/about">
             <li>About</li>
           </Link>
@@ -72,7 +76,7 @@ const Navbar = (
       </div>
       
   
-    </div>
+    
     
   )
 }
