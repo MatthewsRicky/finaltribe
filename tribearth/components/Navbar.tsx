@@ -40,7 +40,7 @@ const Navbar = (
       
       <div 
         className={`relative flex-col w-full ${ isOpen ? 'flex': 'hidden'}`}
-        onClick={handleClick()}
+        onClick={handleClick}
       >
         <ul className="flex gap-4">
           <Link href="/about">
