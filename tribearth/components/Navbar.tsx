@@ -31,7 +31,7 @@ const Navbar = (
           </li>
           <li>
             <button 
-              className="flex flex-col md:hidden rounded-full justify-center px-2 py-4 items-center hover:text-neutral-100 hover:bg-emerald-500/90 text-emerald-500/90 w-20 text-center transition-all duration-300"
+              className="flex flex-col md:hidden rounded justify-center p-2 items-center hover:text-neutral-100 hover:bg-emerald-500/90 text-emerald-500/90 text-center transition-all duration-300"
               onClick={() => setIsOpen(!isOpen)}>
                 {isOpen ? (<BiXCircle size={24} />) : (
                   
@@ -43,27 +43,27 @@ const Navbar = (
         </ul>
         </div>
       <div 
-        className={`relative flex md:flex justify-between items-center w-full ${ isOpen ? 'flex': 'hidden'}`}
+        className={`relative flex md:flex justify-between items-center w-full ${ isOpen ? 'block': 'hidden'}`}
       >
         <ul className="w-full flex  md:bg-transparent mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300  bg-opacity-60 ">
-          <Link href="/about">
+          <Link href="/about" onClick={() => setIsOpen(!isOpen)}>
             <li>About</li>
           </Link>
-          <Link href="/artisans">
+          <Link href="/artisans" onClick={() => setIsOpen(!isOpen)}>
             <li>Artisans</li>
           </Link>
-          <Link href="/impact">
+          <Link href="/impact" onClick={() => setIsOpen(!isOpen)}>
             <li>Impact</li>
           </Link>
-          <Link href="/vegancafe">
+          <Link href="/vegancafe" onClick={() => setIsOpen(!isOpen)}>
             <li>Vegan Cafe</li>
           </Link>
-          <Link href="/shop">
+          <Link href="/shop" onClick={() => setIsOpen(!isOpen)}>
             <li>Shop</li>
           </Link>
-          <Link href="/cart">
+          <Link href="/cart" onClick={() => setIsOpen(!isOpen)}>
             <li>
-              <AiFillShopping size={24}/>
+              <AiFillShopping size={24} onClick={() => setIsOpen(!isOpen)} />
             </li>
           </Link>
           
