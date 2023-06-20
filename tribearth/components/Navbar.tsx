@@ -46,22 +46,22 @@ const Navbar = (
       >
         <ul className="w-full flex md:bg-transparent mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300  bg-opacity-60 ">
           <Link href="/about" onClick={() => setIsOpen(!isOpen)}>
-            <li>About</li>
+            <li className="py-4">About</li>
           </Link>
           <Link href="/artisans" onClick={() => setIsOpen(!isOpen)}>
-            <li>Artisans</li>
+            <li className="py-4">Artisans</li>
           </Link>
           <Link href="/impact" onClick={() => setIsOpen(!isOpen)}>
-            <li>Impact</li>
+            <li className="py-4">Impact</li>
           </Link>
           <Link href="/vegancafe" onClick={() => setIsOpen(!isOpen)}>
-            <li>Vegan Cafe</li>
+            <li className="py-4">Vegan Cafe</li>
           </Link>
           <Link href="/shop" onClick={() => setIsOpen(!isOpen)}>
-            <li>Shop</li>
+            <li className="py-4">Shop</li>
           </Link>
           <Link href="/cart" onClick={() => setIsOpen(!isOpen)}>
-            <li>
+            <li className="py-4">
               <AiFillShopping size={24} onClick={() => setIsOpen(!isOpen)} />
             </li>
           </Link>
