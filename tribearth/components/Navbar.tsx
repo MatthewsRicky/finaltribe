@@ -46,22 +46,22 @@ const Navbar = (
       >
         <ul className="w-full flex md:bg-transparent mt-[4.5rem] md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300  bg-opacity-60 ">
           <Link href="/about" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-blue-300">About</li>
+            <li className="py-4 hover:bg-blue-300 hover:outline-1">About</li>
           </Link>
           <Link href="/artisans" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-blue-300">Artisans</li>
+            <li className="py-4 hover:bg-blue-300 hover:outline-1">Artisans</li>
           </Link>
           <Link href="/impact" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-blue-300">Impact</li>
+            <li className="py-4 hover:bg-blue-300 hover:outline-1">Impact</li>
           </Link>
           <Link href="/vegancafe" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-blue-300">Vegan Cafe</li>
+            <li className="py-4 hover:bg-blue-300 hover:outline-1">Vegan Cafe</li>
           </Link>
           <Link href="/shop" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-blue-300">Shop</li>
+            <li className="py-4 hover:bg-blue-300 hover:outline-1">Shop</li>
           </Link>
           <Link href="/cart" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-blue-300">
+            <li className="py-4 hover:bg-blue-300 hover:outline-1">
               <AiFillShopping size={24} onClick={() => setIsOpen(!isOpen)} />
             </li>
           </Link>
