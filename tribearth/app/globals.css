@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.hero {
+  background-image: url(../public/images/hero.jpg);
+}
