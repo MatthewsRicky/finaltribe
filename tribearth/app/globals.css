@@ -3,5 +3,12 @@
 @tailwind utilities;
 
 .hero {
+  margin: 0;
   background-image: url(../public/images/hero.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  display: flex;
 }
