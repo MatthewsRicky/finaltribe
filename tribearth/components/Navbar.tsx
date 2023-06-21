@@ -17,9 +17,9 @@ const Navbar = (
 
   return (
     <div className="relative w-full">
-      <div className="w-full md:flex justify-between bg-emerald-100/90 items-center gap-4 px-4 py-6">
+      <div className="w-full md:flex justify-between bg-emerald-100/90 items-center gap-4 px-4 py-6 transition-all duration-300">
         <ul className="flex justify-between items-center">
-          <li>
+          <li className="hover:scale-105 transition duration-300">
             <Link href="/">
               <Image 
                 src={"/images/Tribearth logo.png"}
