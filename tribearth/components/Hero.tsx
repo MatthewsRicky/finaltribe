@@ -1,6 +1,11 @@
 "use client";
 
+import { useState } from "react";
+
 const Hero = () => {
+
+  const [isClicked, setIsClicked] = useState(false)
+
   return (
     <div className="hero flex justify-center items-center relative">
       <button 
