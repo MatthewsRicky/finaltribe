@@ -30,6 +30,9 @@ const DropdownMenu = () => {
           <Link href="/option3"
             className="px-4 py-2 hover:bg-emerald-400">Option 3 
           </Link>
+          <Link href="/option3"
+            className="px-4 py-2 hover:bg-emerald-400">Option 3 
+          </Link>
         </div>
       )}
     </div>
