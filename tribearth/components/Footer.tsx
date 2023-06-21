@@ -3,7 +3,7 @@
 const Footer = () => {
   return (
     <div className="w-full relative bg-emerald-100/90 justify-center items-center flex flex-col">
-      <div className="flex justify-between items-center gap-4">
+      <div className="flex flex-col md:flex-row justify-center md:justify-between items-center px-10 gap-4">
         <div>CONTACT DETAILS</div>
         <div>
           <div>
