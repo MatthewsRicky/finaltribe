@@ -6,8 +6,13 @@ const Footer = () => {
       <div className="flex justify-center items-center gap-4">
         <div>CONTACT DETAILS</div>
         <div>
-          <div>STORY</div>
-          <div>CUSTOMRE CARE</div>
+          <div>
+            <h1>STORY</h1>
+          </div>
+          <div>
+            <h1>CUSTOMER CARE</h1>
+          </div>
+          
         </div>
         <div>CONTACT US</div>
         <div>SUBSCRIBE</div>
