@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 const DropdownMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,9 +21,15 @@ const DropdownMenu = () => {
 
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 bg-emerald-300 flex flex-col gap-4">
-          <a href="#" className="px-4 py-2 hover:bg-emerald-400">Option 1</a>
-          <a href="#" className="px-4 py-2 hover:bg-emerald-400">Option 2</a>
-          <a href="#" className="px-4 py-2 hover:bg-emerald-400">Option 3</a>
+          <Link href="/option1"
+            className="px-4 py-2 hover:bg-emerald-400">Option 1
+          </Link>
+          <Link href="/option2"
+            className="px-4 py-2 hover:bg-emerald-400">Option 2
+          </Link>
+          <Link href="/option3"
+            className="px-4 py-2 hover:bg-emerald-400">Option 3 
+          </Link>
         </div>
       )}
     </div>
