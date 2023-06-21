@@ -2,7 +2,7 @@
 
 const Hero = () => {
   return (
-    <div style={{backgroundImage: "/images/hero.jpg"}}>Hero</div>
+    <div>Hero</div>
   )
 }
 
