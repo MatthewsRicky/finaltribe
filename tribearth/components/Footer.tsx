@@ -2,8 +2,8 @@
 
 const Footer = () => {
   return (
-    <div>
-      <div>
+    <div className="w-full justify-center items-center flex flex-col">
+      <div className="flex justify-center items-center gap-4">
         <div>CONTACT DETAILS</div>
         <div>
           <div>STORY</div>
