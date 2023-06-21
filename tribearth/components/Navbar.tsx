@@ -17,7 +17,7 @@ const Navbar = (
 
   return (
     <div className="relative w-full">
-      <div className="w-full bg-emerald-100/90 items-center gap-4 px-4 py-6">
+      <div className="w-full md:flex bg-emerald-100/90 items-center gap-4 px-4 py-6">
         <ul className="flex justify-between">
           <li>
             <Link href="/">
@@ -42,26 +42,26 @@ const Navbar = (
           </li>
         </ul>
         <div 
-        className={`relative flex md:flex justify-between items-center ${ isOpen ? 'block': 'hidden'}`}
+        className={` md:flex relative flex justify-between items-center ${ isOpen ? 'block': 'hidden'}`}
       >
-        <ul className="w-full flex md:bg-transparent md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300  bg-opacity-60 ">
+        <ul className="w-full flex md:mt-0 flex-col md:flex-row justify-between items-center transition-all duration-300  bg-opacity-60 ">
           <Link href="/about" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-blue-300 hover:scale-105 w-full border-b-2 border-emerald-500">About</li>
+            <li className="py-4 hover:bg-blue-300 hover:scale-105 w-full border-b-2 border-emerald-500 rounded-sm">About</li>
           </Link>
           <Link href="/artisans" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-blue-300 hover:scale-105 w-full border-b-2 border-emerald-500">Artisans</li>
+            <li className="py-4 hover:bg-blue-300 hover:scale-105 w-full border-b-2 border-emerald-500 rounded-sm">Artisans</li>
           </Link>
           <Link href="/impact" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-blue-300 hover:scale-105 w-full border-b-2 border-emerald-500">Impact</li>
+            <li className="py-4 hover:bg-blue-300 hover:scale-105 w-full border-b-2 border-emerald-500 rounded-sm">Impact</li>
           </Link>
           <Link href="/vegancafe" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-blue-300 hover:scale-105 w-full border-b-2 border-emerald-500">Vegan Cafe</li>
+            <li className="py-4 hover:bg-blue-300 hover:scale-105 w-full border-b-2 border-emerald-500 rounded-sm">Vegan Cafe</li>
           </Link>
           <Link href="/shop" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-blue-300 hover:scale-105 w-full border-b-2 border-emerald-500">Shop</li>
+            <li className="py-4 hover:bg-blue-300 hover:scale-105 w-full border-b-2 border-emerald-500 rounded-sm">Shop</li>
           </Link>
           <Link href="/cart" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-blue-300 hover:scale-105 w-full border-b-2 border-emerald-500">
+            <li className="py-4 hover:bg-blue-300 hover:scale-105 w-full border-b-2 border-emerald-500 rounded-sm">
               <AiFillShopping size={24} onClick={() => setIsOpen(!isOpen)} />
             </li>
           </Link>
