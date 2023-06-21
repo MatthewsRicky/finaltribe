@@ -25,9 +25,11 @@ const DropdownMenu = () => {
             className="px-4 py-2 hover:bg-emerald-400">Bracelets
           </Link>
           <Link href="/option2"
-            className="px-4 py-2 hover:bg-emerald-400">  Earrings        </Link>
+            className="px-4 py-2 hover:bg-emerald-400">
+              Earrings
+            </Link>
           <Link href="/option3"
-            className="px-4 py-2 hover:bg-emerald-400">Option 3 
+            className="px-4 py-2 hover:bg-emerald-400">Necklaces 
           </Link>
           <Link href="/option3"
             className="px-4 py-2 hover:bg-emerald-400">Option 3 
