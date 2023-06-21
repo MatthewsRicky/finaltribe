@@ -21,8 +21,8 @@ const DropdownMenu = () => {
 
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 bg-emerald-300 flex flex-col gap-4">
-          <Link href="/option1"
-            className="px-4 py-2 hover:bg-emerald-400">Option 1
+          <Link href="/shop/bracelets"
+            className="px-4 py-2 hover:bg-emerald-400">Bracelets
           </Link>
           <Link href="/option2"
             className="px-4 py-2 hover:bg-emerald-400">Option 2
