@@ -11,6 +11,10 @@ const Footer = () => {
             <p>P.O. Box 00100,50600</p>
             <p>Diani Beach Rd (between Bazaar & Kaskazi) Diani, Kenya.</p>
           </div>
+          <div>
+            <p>T: +254 706 030625</p>
+            <p>Email: hello@tribearth.org</p>
+          </div>
         </div>
         <div>
           <div>
