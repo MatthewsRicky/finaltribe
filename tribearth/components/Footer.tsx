@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <div className="w-full justify-center items-center flex flex-col">
+    <div className="w-full relative bg-emerald-100/90 justify-center items-center flex flex-col">
       <div className="flex justify-center items-center gap-4">
         <div>CONTACT DETAILS</div>
         <div>
