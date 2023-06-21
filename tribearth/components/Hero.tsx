@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="hero flex justify-center items-center relative">
       <button 
         onClick={() => {}}
-        className="bg-emerald-500/60 w-20 h-10 item-center"
+        className="bg-emerald-500/60 py-4 px-3 text-center text-xl"
       >
         Explore
       </button>
