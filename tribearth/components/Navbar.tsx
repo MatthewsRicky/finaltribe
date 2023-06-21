@@ -17,7 +17,7 @@ const Navbar = (
 
   return (
     <div className="relative w-full">
-      <div className="w-full md:flex bg-emerald-100/90 items-center gap-4 px-4 py-6">
+      <div className="w-full md:flex justify-between bg-emerald-100/90 items-center gap-4 px-4 py-6">
         <ul className="flex justify-between">
           <li>
             <Link href="/">
