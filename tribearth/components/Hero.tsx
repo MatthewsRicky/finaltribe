@@ -2,7 +2,11 @@
 
 const Hero = () => {
   return (
-    <div className="hero">Hero</div>
+    <div className="hero">
+      <button 
+        onClick={() => {}}
+      ></button>
+    </div>
   )
 }
 
