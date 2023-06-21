@@ -16,7 +16,7 @@ const DropdownMenu = () => {
         onClick={toggleMenu}
         className="flex items-center text-emerald-300"
       >
-        Navbar Link
+        Shop
       </button>
 
       {isOpen && (
