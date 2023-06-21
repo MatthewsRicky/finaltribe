@@ -2,10 +2,13 @@
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero flex justify-center items-center relative">
       <button 
         onClick={() => {}}
-      ></button>
+        className="bg-emerald-500/60 w-20 h-10 item-center"
+      >
+        Explore
+      </button>
     </div>
   )
 }
