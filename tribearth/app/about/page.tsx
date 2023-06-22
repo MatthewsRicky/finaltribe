@@ -56,7 +56,28 @@ const About = () => {
         </div>
       </div>
       </div>
-      <div></div>
+      <div>
+        <div className="relative bg-emerald-200/10  rounded-md shadow-lg 
+      text-slate-500 m-4 flex flex-col md:flex-row justify-between gap-4 p-4">
+        <div className="w-full rounded-lg p-0 shadow-md">
+          <Image 
+            src={"/images/green.png"}
+            alt="About Hero Image"
+            width={1000}
+            height={1000}    
+          />
+        </div>
+        <div className="flex justify-around flex-col">
+          <h1>VALUES & PHILOSOPHY</h1>
+          <div>
+            <p>Sustainability</p>
+            <p>Ethical trade</p>
+            <p>Creative innovation</p>
+            <p>Passion.</p>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
   )
 }
