@@ -14,7 +14,7 @@ const DropdownMenu = () => {
     <div className="relative">
       <button
         onClick={toggleMenu}
-        className="flex text-center items-center text-yellow-500 hover:bg-yellow-500 py-4 px-2 hover:text-white rounded-md "
+        className="flex text-center items-center text-yellow-500 hover:bg-yellow-500 py-4 px-4 hover:text-white rounded-lg "
       >
         Shop
       </button>
