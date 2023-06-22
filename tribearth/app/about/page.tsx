@@ -63,20 +63,15 @@ const About = () => {
       text-slate-500 m-4 flex flex-col md:flex-row justify-between gap-4 p-4">
         <div className="w-full rounded-lg p-0 shadow-md">
           <Image 
-            src={"/images/green.png"}
+            src={"/images/Sumer.jpg"}
             alt="About Hero Image"
             width={1000}
             height={1000}    
           />
         </div>
         <div className="flex justify-around flex-col">
-          <h1>VALUES & PHILOSOPHY</h1>
-          <div>
-            <p>Sustainability</p>
-            <p>Ethical trade</p>
-            <p>Creative innovation</p>
-            <p>Passion.</p>
-          </div>
+          <h1>DESIGNER</h1>
+            <p>Sumer Homeh is our head creative designer. She had studied and worked as a fashion designer for 7 years in Australia before founding LocalAid in 2008. She has lead several projects through her humanitarian work in Kenya over the past 10 years with LocalAid. </p>
         </div>
       </div>
       </div>
