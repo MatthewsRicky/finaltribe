@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <div className="relative justify-between gap-8">
-        <div className="flex w-80">
+        <div className="flex flex-col w-80">
           <h1>ABOUT US</h1>
           <p>Tribearth is a socially conscious jewelry business that creates a community of empowered women & youth who produce handmade products in a sustainable and ethical environment. Using a moralistic and economic approach, Tribearth creates a challenging voice against the detrimental impact of fast fashion and inequality faced by stigmatized women & youth.</p>
         </div>
