@@ -27,7 +27,13 @@ const About = () => {
             height={1000}    
           />
         </div>
-        <div></div>
+        <div>
+          <h1>VALUES & PHILOSOPHY</h1>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
       </div>
       <div></div>
       <div></div>
