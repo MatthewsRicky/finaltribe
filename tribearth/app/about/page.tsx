@@ -50,7 +50,7 @@ const About = () => {
         </div>
         <div className="w-full rounded-lg p-0 shadow-md">
           <Image 
-            src={"/images/abouthero.png"}
+            src={"/images/Localaid.jpg"}
             alt="About Hero Image"
             width={1000}
             height={1000}    
