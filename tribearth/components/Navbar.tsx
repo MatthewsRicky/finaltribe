@@ -18,7 +18,7 @@ const Navbar = (
 
   return (
     <div className="relative w-full">
-      <div className="w-full md:flex justify-between bg-emerald-100/90 items-center gap-4 px-4 py-6">
+      <div className="w-full md:flex  justify-between bg-emerald-100/90 items-center gap-4 px-4 py-6">
         <ul className="flex justify-between items-center">
           <li className="hover:scale-105 hover:bg-yellow-500 p-4 rounded-lg transition duration-300">
             <Link href="/">
@@ -45,7 +45,7 @@ const Navbar = (
         <div 
         className={` md:flex flex gap-4 justify-between items-center ${ isOpen ? 'block': 'hidden'}`}
       >
-        <ul className="w-full text-slate-600 flex mt-0 flex-col md:flex-row justify-around items-center transition-all duration-300 bg-opacity-60 text-xl active:font-semibold ">
+        <ul className="w-full text-slate-600 flex mt-0 flex-col md:flex-row justify-around items-center transition-all duration-300 bg-opacity-60 text-xl active:font-semibold mx-4">
           <Link href="/about" onClick={() => setIsOpen(!isOpen)}>
             <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">About</li>
           </Link>
@@ -62,8 +62,8 @@ const Navbar = (
             <li className="py-4 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg justify-center"><DropdownMenu /></li>
           </Link>
           <Link href="/cart">
-            <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">
-              <AiFillShopping size={24} onClick={() => setIsOpen(!isOpen)} />
+            <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 justify-center items-center text-center border-emerald-500 rounded-lg">
+              <AiFillShopping className="text-center" size={24} onClick={() => setIsOpen(!isOpen)} />
             </li>
           </Link>
           
