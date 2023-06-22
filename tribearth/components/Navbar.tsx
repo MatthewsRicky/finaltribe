@@ -63,7 +63,7 @@ const Navbar = (
           </Link>
           <Link href="/cart">
             <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 justify-center items-center text-center border-emerald-500 rounded-lg">
-              <AiFillShopping className="text-center" size={24} onClick={() => setIsOpen(!isOpen)} />
+              <AiFillShopping size={24} onClick={() => setIsOpen(!isOpen)} />
             </li>
           </Link>
           
