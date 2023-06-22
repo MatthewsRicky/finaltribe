@@ -45,7 +45,7 @@ const Navbar = (
         <div 
         className={` md:flex flex gap-4 justify-between items-center ${ isOpen ? 'block': 'hidden'}`}
       >
-        <ul className="w-full flex mt-0 flex-col md:flex-row justify-around items-center transition-all duration-300 bg-opacity-60 text-xl active:font-semibold ">
+        <ul className="w-full text-slate-600 flex mt-0 flex-col md:flex-row justify-around items-center transition-all duration-300 bg-opacity-60 text-xl active:font-semibold ">
           <Link href="/about" onClick={() => setIsOpen(!isOpen)}>
             <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">About</li>
           </Link>
