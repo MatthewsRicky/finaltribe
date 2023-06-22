@@ -59,7 +59,7 @@ const Navbar = (
             <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">Vegan Cafe</li>
           </Link>
           <Link href="/shop" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg justify-center"><DropdownMenu /></li>
+            <li className="py-4 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg justify-center"><DropdownMenu /></li>
           </Link>
           <Link href="/cart" onClick={() => setIsOpen(!isOpen)}>
             <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">
