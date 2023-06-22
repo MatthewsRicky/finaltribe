@@ -29,10 +29,10 @@ const About = () => {
         </div>
         <div>
           <h1>VALUES & PHILOSOPHY</h1>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
+          <p>Sustainability</p>
+          <p>Ethical trade</p>
+          <p>Creative innovation</p>
+          <p>Passion.</p>
         </div>
       </div>
       <div></div>
