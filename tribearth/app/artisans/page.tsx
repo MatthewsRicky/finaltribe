@@ -3,7 +3,7 @@ import Image from "next/image"
 const Artisans = () => {
   return (
     <div>
-      <h1></h1>
+      <h1>Each artisan we employ has a story and we want you to know it</h1>
       <div>
         <Image
           src={"/images/Florence.jpg"}
