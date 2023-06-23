@@ -48,8 +48,8 @@ const Artisans = () => {
         <Image
           src={"/images/Lena.jpg"}
           alt="Lena"
-          width={1000}
-          height={1000}
+          width={500}
+          height={500}
         />
       </div>
       
