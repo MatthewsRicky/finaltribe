@@ -31,7 +31,7 @@ const Artisans = () => {
       <div className="flex gap-4 py-2 px-4 justify-center items-center shadow-xl">
         <Image
           src={"/images/Adam.jpg"}
-          alt="Florence"
+          alt="Adam"
           width={1000}
           height={1000}
         />
@@ -42,12 +42,12 @@ const Artisans = () => {
       </div>
       <div className="flex gap-4 py-2 px-4 justify-center items-center shadow-xl">
          <div>
-          <h1>FRED NYONGESA - Soldering King</h1>
-          <p>Hi, I’m Fred. I’ve been working for Tribearth for 2 years now and it’s helped me sustain myself and my family. I do all the soldering work at the workshop but my passion is creating new designs that suit Tribearth’s style. If you have a style in mind, just reach out to us and I’ll custom make a special piece just for you. </p>
+          <h1>LENA INDUSA KAGONI -  Polishing Queen</h1>
+          <p>My name is Lena, I feel blessed to have a job right now during Covid as I know many people who have been laid off and unable to look after their family. I have 2 kids that I am able to take care of because I have a stable income. I buff and polish all of the jewelry at Tribearth to make sure they shine bright and make our customers happy. </p>
         </div>
         <Image
-          src={"/images/Fred.jpg"}
-          alt="Fred"
+          src={"/images/Lena.jpg"}
+          alt="Lena"
           width={1000}
           height={1000}
         />
