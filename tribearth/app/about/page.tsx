@@ -20,7 +20,7 @@ const About = () => {
         </div>
       </div>
       <div className="relative bg-emerald-200/10  rounded-md shadow-lg 
-      text-slate-500 m-4 flex flex-col md:flex-row justify-between gap-4 p-4">
+      text-slate-500 m-4 flex flex-col-reverse md:flex-row justify-between gap-4 p-4">
         <div className="w-full rounded-lg p-0 shadow-md">
           <Image 
             src={"/images/green.png"}
@@ -60,7 +60,7 @@ const About = () => {
       </div>
       <div>
         <div className="relative bg-emerald-200/10  rounded-md shadow-lg 
-      text-slate-500 m-4 flex flex-col md:flex-row justify-between gap-4 p-4">
+      text-slate-500 m-4 flex flex-col-reverse md:flex-row justify-between gap-4 p-4">
         <div className="w-full rounded-lg p-0 shadow-md">
           <Image 
             src={"/images/Sumer.jpg"}
