@@ -6,7 +6,7 @@ const Artisans = () => {
       <h1 className="flex text-2xl md:text-3xl py-20 px-10 hover:animate-pulse">Each artisan we employ has a story and we want you to know it</h1>
       <div className="flex flex-col-reverse md:flex-row gap-8 m-10 py-2 px-4 justify-center items-center shadow-xl">
         <Image
-          className="md:max-w-[50%] p-4 rounded-md hover:bg-yellow-500/20"
+          className="md:max-w-[50%] p-4 rounded-md hover:bg-yellow-500/20 transition-all duration-300"
           src={"/images/Florence.jpg"}
           alt="Florence"
           width={700}
@@ -23,7 +23,7 @@ const Artisans = () => {
           <p className="min-w-[50%]">Hi, I’m Fred. I’ve been working for Tribearth for 2 years now and it’s helped me sustain myself and my family. I do all the soldering work at the workshop but my passion is creating new designs that suit Tribearth’s style. If you have a style in mind, just reach out to us and I’ll custom make a special piece just for you. </p>
         </div>
         <Image
-          className="md:max-w-[50%] p-4 rounded-md hover:bg-yellow-500/20"
+          className="md:max-w-[50%] p-4 rounded-md hover:bg-yellow-500/20 transition-all duration-300"
           src={"/images/Fred.jpg"}
           alt="Fred"
           width={700}
@@ -32,7 +32,7 @@ const Artisans = () => {
       </div>
       <div className="flex flex-col-reverse md:flex-row gap-4 py-2 px-4 justify-center items-center shadow-xl">
         <Image
-          className="md:max-w-[50%] p-4 rounded-md hover:bg-yellow-500/20"
+          className="md:max-w-[50%] p-4 rounded-md hover:bg-yellow-500/20 transition-all duration-300"
           src={"/images/Adam.jpg"}
           alt="Adam"
           width={700}
@@ -49,7 +49,7 @@ const Artisans = () => {
           <p className="min-w-[50%]">My name is Lena, I feel blessed to have a job right now during Covid as I know many people who have been laid off and unable to look after their family. I have 2 kids that I am able to take care of because I have a stable income. I buff and polish all of the jewelry at Tribearth to make sure they shine bright and make our customers happy. </p>
         </div>
         <Image
-          className="md:max-w-[50%] p-4 rounded-md hover:bg-yellow-500/20"
+          className="md:max-w-[50%] p-4 rounded-md hover:bg-yellow-500/20 transition-all duration-300"
           src={"/images/Lena.jpg"}
           alt="Lena"
           width={700}
