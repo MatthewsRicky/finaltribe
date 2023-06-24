@@ -3,7 +3,7 @@ import Image from "next/image"
 const Artisans = () => {
   return (
     <div className="relative w-full flex justify-center items-center flex-col">
-      <h1 className="flex text-2xlhover:animate-pulse">Each artisan we employ has a story and we want you to know it</h1>
+      <h1 className="flex text-2xl md:text-3xl py-20 px-10 hover:animate-pulse">Each artisan we employ has a story and we want you to know it</h1>
       <div className="flex flex-col-reverse md:flex-row gap-4 py-2 px-4 justify-center items-center shadow-xl">
         <Image
           className="md:max-w-[50%]"
