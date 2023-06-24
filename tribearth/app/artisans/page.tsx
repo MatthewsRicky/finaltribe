@@ -6,14 +6,15 @@ const Artisans = () => {
       <h1 className="flex text-2xlhover:animate-pulse">Each artisan we employ has a story and we want you to know it</h1>
       <div className="flex flex-col-reverse md:flex-row gap-4 py-2 px-4 justify-center items-center shadow-xl">
         <Image
+          className="md:max-w-[50%]"
           src={"/images/Florence.jpg"}
           alt="Florence"
-          width={100}
+          width={700}
           height={1000}
         />
-        <div className="flex  flex-col gap-4 justify-center items-center p-4 w-full">
+        <div className="flex  flex-col gap-4 justify-center items-center p-4 min-w-[50%]">
           <h1>FLORENCE IMIZA - Assembling Chief</h1>
-          <p className="min-w-[100px]">My name is Florence. I have four children. I’ve always believed that life is about supporting each other because if we take care of one another, everyone grows. I want to see my daughter grow up to be empowered just like me. Here at Tribearth, I have found peace and happiness in the work I do and I see a hopeful future ahead.</p>
+          <p className="min-w-[50%]">My name is Florence. I have four children. I’ve always believed that life is about supporting each other because if we take care of one another, everyone grows. I want to see my daughter grow up to be empowered just like me. Here at Tribearth, I have found peace and happiness in the work I do and I see a hopeful future ahead.</p>
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-4 py-2 px-4 justify-center items-center shadow-xl">
