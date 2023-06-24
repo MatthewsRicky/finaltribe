@@ -26,7 +26,7 @@ const Artisans = () => {
           className="md:max-w-[50%]"
           src={"/images/Fred.jpg"}
           alt="Fred"
-          width={1000}
+          width={700}
           height={1000}
         />
       </div>
@@ -35,7 +35,7 @@ const Artisans = () => {
           className="md:max-w-[50%]"
           src={"/images/Adam.jpg"}
           alt="Adam"
-          width={1000}
+          width={700}
           height={1000}
         />
         <div className="flex flex-col gap-4 justify-center items-center p-4 w-full">
@@ -52,8 +52,8 @@ const Artisans = () => {
           className="md:max-w-[50%]"
           src={"/images/Lena.jpg"}
           alt="Lena"
-          width={500}
-          height={500}
+          width={700}
+          height={1000}
         />
       </div>
       
