@@ -2,7 +2,13 @@
 
 const Impact = () => {
   return (
-    <div>Impact</div>
+    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   )
 }
 
