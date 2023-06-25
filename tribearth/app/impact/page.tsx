@@ -6,8 +6,8 @@ import Link from "next/link";
 const Impact = () => {
   return (
     <div className="w-full relative flex flex-col">
-      <div className="grid grid-row-1 md:grid-cols-2 relative p-8">
-        <div flex>
+      <div className="grid gap-x-6 gap-y-6 grid-row-1 md:grid-cols-2 justify-around items-center relative p-8">
+        <div className="flex flex-col gap-y-2">
           <h1 className="flex font-semibold justify-center m-2 p-2 rounded-md z-10 bg-yellow-500/40 left-[40%] text-xl md:text-2xl">Ethical Gemstones</h1>
           <p className="flex p-4 mt-4">Responsible sourcing of gemstones is of great importance to our brand. Our gemstones are sourced directly from ethical mines run by women in Kenya. We embrace traceability and sustainability throughout our complete supply chain.</p>
         </div>
