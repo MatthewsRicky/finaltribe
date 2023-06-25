@@ -58,7 +58,7 @@ const Impact = () => {
           />
         </div>
         <div>
-          <h1>Womens Empowerment</h1>
+          <h1 className="flex font-semibold justify-center m-2 p-2 rounded-md z-10 bg-yellow-500/40 left-[40%] text-xl md:text-2xl shadow-lg hover:scale-105">Womens Empowerment</h1>
           <p>We believe that when Kenyan women have the freedom to reach their potential, all Kenyan families and communities grow stronger. Tribearth recognizes the potential that women living with HIV/AIDS have and the role they can play to improve the country’s economy.</p>
         </div>
       </div>
