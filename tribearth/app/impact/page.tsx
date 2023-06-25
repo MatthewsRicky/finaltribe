@@ -36,7 +36,7 @@ const Impact = () => {
       </div>
       <div className="grid gap-x-6 gap-y-6 grid-row-1 md:grid-cols-2 justify-around items-center relative transition-all hover:bg-gradient-to-b from-yellow-500/20 to-emerald-300/20 duration-300 p-8 my-4 mx-4 shadow-lg">
          <div>
-          <h1>Green Workshop</h1>
+          <h1 className="flex font-semibold justify-center m-2 p-2 rounded-md z-10 bg-yellow-500/40 left-[40%] text-xl md:text-2xl shadow-lg hover:scale-105">Green Workshop</h1>
           <p>We are passionate about preserving our planet for future generations. Our workshop, based in Diani, Kenya, operates using sustainable interventions, such as our recycling plant which includes recycling waste material and water. Additionally, we recycle our waste metals to re-create designs. We are working on setting up solar systems for our power and water harvesting systems.</p>
         </div>
         <Image
