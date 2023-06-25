@@ -26,8 +26,9 @@ const Impact = () => {
       <div>
         <Image src={"/images/Fairtrade.jpg"} alt="Fair Trade" width={700} height={1000} />
         <div>
-          <h1></h1>
-          <p></p>
+          <h1>Fair Trade</h1>
+          <h2>FASHION IS THE LARGEST INDUSTRIAL EMPLOYER OF WOMEN AND LESS THAN 2% ARE ACTUALLY PAID A LIVING WAGE.</h2>
+          <p>Our vision is to empower women by providing them with fair and ethical means in which to earn a living. We promote gender equality in a sector that have long been male dominated. We place special emphasis on training and development that empowers the women working at the workshop.</p>
         </div>
       </div>
       <div>
