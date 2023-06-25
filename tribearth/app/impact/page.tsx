@@ -24,7 +24,7 @@ const Impact = () => {
         </h1>
       </div>
       <div>
-        <Image />
+        <Image src={"/images/Fairtrade.jpg"} alt="Fair Trade" width={700} height={1000} />
         <div>
           <h1></h1>
           <p></p>
