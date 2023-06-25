@@ -52,8 +52,8 @@ const Impact = () => {
             height={1000}
           />
         <div>
-          <h1></h1>
-          <p></p>
+          <h1>Womens Empowerment</h1>
+          <p>We believe that when Kenyan women have the freedom to reach their potential, all Kenyan families and communities grow stronger. Tribearth recognizes the potential that women living with HIV/AIDS have and the role they can play to improve the country’s economy.</p>
         </div>
       </div>
       </div>
