@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const Impact = () => {
   return (
@@ -18,7 +19,9 @@ const Impact = () => {
         />
       </div>
       <div>
-        <h1></h1>
+        <h1>
+           Tribearth sustains 30% of LocalAid’s humanitarian work. To learn more of LocalAid’s work in Kenya, please visit <Link href ="/">localaid.or.ke</Link>
+        </h1>
       </div>
       <div>
         <Image />
