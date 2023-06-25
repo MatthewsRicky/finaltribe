@@ -6,9 +6,9 @@ import Link from "next/link";
 const Impact = () => {
   return (
     <div className="w-full relative flex flex-col">
-      <div>
+      <div className="grid grid-cols-2 relative p-8">
         <div>
-          <h1>Ethical Gemstones</h1>
+          <h1 className="absolute p-4 z-10">Ethical Gemstones</h1>
           <p>Responsible sourcing of gemstones is of great importance to our brand. Our gemstones are sourced directly from ethical mines run by women in Kenya. We embrace traceability and sustainability throughout our complete supply chain.</p>
         </div>
         <Image
