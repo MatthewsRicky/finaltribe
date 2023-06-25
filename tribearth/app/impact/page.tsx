@@ -47,19 +47,20 @@ const Impact = () => {
           height={1000}
         />
       </div>
-      <div className="grid gap-x-6 gap-y-6 grid-row-1 md:grid-cols-2 justify-around items-center relative transition-all hover:bg-gradient-to-b from-yellow-500/20 to-emerald-300/20 duration-300 p-8 my-4 mx-4 shadow-lg">
+      <div className="grid gap-x-6 gap-y-6 grid-col-2 md:grid-cols-2 justify-around items-center relative transition-all hover:bg-gradient-to-b from-yellow-500/20 to-emerald-300/20 duration-300 p-8 my-4 mx-4 shadow-lg">
          <div>
           <Image
+            className="min-w-[50%] rounded-lg hover:scale-110"
             src={"/images/Womenempowerment.jpeg"}
             alt="Women Empowerment"
-            width={700}
-            height={1000}
+            width={500}
+            height={100}
           />
+        </div>
         <div>
           <h1>Womens Empowerment</h1>
           <p>We believe that when Kenyan women have the freedom to reach their potential, all Kenyan families and communities grow stronger. Tribearth recognizes the potential that women living with HIV/AIDS have and the role they can play to improve the country’s economy.</p>
         </div>
-      </div>
       </div>
     </div>
   )
