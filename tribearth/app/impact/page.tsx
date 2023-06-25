@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Impact = () => {
   return (
-    <div>
+    <div className="w-full relative flex flex-col">
       <div>
         <div>
           <h1>Ethical Gemstones</h1>
