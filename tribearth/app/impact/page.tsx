@@ -29,7 +29,15 @@ const Impact = () => {
         </div>
         <Image />
       </div>
-      <div></div>
+      <div>
+         <div>
+        <Image />
+        <div>
+          <h1></h1>
+          <p></p>
+        </div>
+      </div>
+      </div>
     </div>
   )
 }
