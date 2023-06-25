@@ -40,6 +40,7 @@ const Impact = () => {
           <p>We are passionate about preserving our planet for future generations. Our workshop, based in Diani, Kenya, operates using sustainable interventions, such as our recycling plant which includes recycling waste material and water. Additionally, we recycle our waste metals to re-create designs. We are working on setting up solar systems for our power and water harvesting systems.</p>
         </div>
         <Image
+          className="min-w-[50%] rounded-lg hover:scale-110"
           src={"/images/green.png"}
           alt="Green Workshop"
           width={700}
