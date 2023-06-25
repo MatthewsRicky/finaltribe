@@ -8,8 +8,8 @@ const Impact = () => {
     <div className="w-full relative flex flex-col">
       <div className="grid grid-cols-2 relative p-8">
         <div>
-          <h1 className="absolute p-4 z-10">Ethical Gemstones</h1>
-          <p>Responsible sourcing of gemstones is of great importance to our brand. Our gemstones are sourced directly from ethical mines run by women in Kenya. We embrace traceability and sustainability throughout our complete supply chain.</p>
+          <h1 className="absolute p-2 rounded-md z-10 bg-yellow-500">Ethical Gemstones</h1>
+          <p className="pt-4 mt-4">Responsible sourcing of gemstones is of great importance to our brand. Our gemstones are sourced directly from ethical mines run by women in Kenya. We embrace traceability and sustainability throughout our complete supply chain.</p>
         </div>
         <Image
           src={"/images/Ethicalgems.jpg"}
