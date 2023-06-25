@@ -30,7 +30,7 @@ const Impact = () => {
           src={"/images/Fairtrade.jpg"} alt="Fair Trade" width={700} height={1000} />
         <div className="flex flex-col gap-y-2 shadow-lg hover:scale-105 hover:bg-white">
           <h1 className="flex font-semibold justify-center m-2 p-2 rounded-md z-10 bg-yellow-500/40 left-[40%] text-xl md:text-2xl shadow-lg hover:scale-105">Fair Trade</h1>
-          <h2>FASHION IS THE LARGEST INDUSTRIAL EMPLOYER OF WOMEN AND LESS THAN 2% ARE ACTUALLY PAID A LIVING WAGE.</h2>
+          <h2 className="flex p-4 font-medium text-yellow-600/90 bg-emerald-200/20 text-center ">FASHION IS THE LARGEST INDUSTRIAL EMPLOYER OF WOMEN AND LESS THAN 2% ARE ACTUALLY PAID A LIVING WAGE.</h2>
           <p className="flex p-8 text-lg md:text-xl mt-4">Our vision is to empower women by providing them with fair and ethical means in which to earn a living. We promote gender equality in a sector that have long been male dominated. We place special emphasis on training and development that empowers the women working at the workshop.</p>
         </div>
       </div>
