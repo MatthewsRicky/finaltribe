@@ -19,7 +19,7 @@ const Impact = () => {
           height={1000}
         />
       </div>
-      <div className="flex justify-centers p-6 text-center m-10 text-2xl bg-emerald-300/20">
+      <div className="flex justify-centers p-6 text-center m-10 text-xl font-semibold italic md:text-2xl bg-emerald-300/20">
         <h1>
            Tribearth sustains 30% of LocalAid’s humanitarian work. To learn more of LocalAid’s work in Kenya, please visit <Link href ="/">localaid.or.ke</Link>
         </h1>
