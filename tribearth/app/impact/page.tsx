@@ -12,6 +12,7 @@ const Impact = () => {
           <p className="flex p-8 text-lg md:text-xl mt-4">Responsible sourcing of gemstones is of great importance to our brand. Our gemstones are sourced directly from ethical mines run by women in Kenya. We embrace traceability and sustainability throughout our complete supply chain.</p>
         </div>
         <Image
+          className="min-w-[50%] rounded-lg"
           src={"/images/Ethicalgems.jpg"}
           alt="Ethical Gems"
           width={700}
