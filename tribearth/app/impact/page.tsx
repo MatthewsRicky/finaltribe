@@ -45,7 +45,12 @@ const Impact = () => {
       </div>
       <div>
          <div>
-        <Image />
+          <Image
+            src={"/images/Womenempowerment.jpeg"}
+            alt="Women Empowerment"
+            width={700}
+            height={1000}
+          />
         <div>
           <h1></h1>
           <p></p>
