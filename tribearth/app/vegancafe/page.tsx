@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Vegancafe = () => {
   return (
-    <div className="flex flex-col items-center w-full">
+    <div className="flex flex-col items-top w-full">
       <div className="flex gap-4 flex-col p-8 text-center">
         <h1 className="text-4xl md:text-5xl xl:text-6xl text-emerald-500/90">Vegan Boutique Cafe</h1>
         
@@ -14,14 +14,14 @@ const Vegancafe = () => {
             <p>Our Vegan Cafe at heart is a mix of Ethiopian food, Swahili snacks and healthy Vegan bitings.</p>
           </Link>
       </div>
-      <div className="flex">
+      <div className="flex flex-col md:flex-row items-center justify-around">
         <div>
           <div>
             <Image
               src={"/images/Fruitbowls.jpeg"}
               alt="Fruit Bowls"
               width={500}
-              height={500}
+              height={1000}
             />
           </div>
           <div>
@@ -49,7 +49,7 @@ const Vegancafe = () => {
               src={"/images/anjeera.jpeg"}
               alt="Ethiopian Platter"
               width={500}
-              height={500}
+              height={100}
             />
           </div>
           <div>
