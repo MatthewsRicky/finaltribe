@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Vegancafe = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center w-full">
       <div>
         <h1>Vegan Boutique Cafe</h1>
         
