@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 
 
@@ -15,17 +16,33 @@ const Vegancafe = () => {
       </div>
       <div>
         <div>
-          <div></div>
-          <div></div>
+          <div>
+            <Image />
+          </div>
+          <div>
+            <h1></h1>
+            <p></p>
+          </div>
         </div>
         <div>
-          <div></div>
-          <div></div>
+          <div>
+            <Image />
+          </div>
+          <div>
+            <h1></h1>
+            <p></p>
+          </div>
         </div>
         <div>
-          <div></div>
-          <div></div>
+          <div>
+            <Image />
+          </div>
+          <div>
+            <h1></h1>
+            <p></p>
+          </div>
         </div>
+       
       </div>
     </div>
   )
