@@ -31,7 +31,12 @@ const Vegancafe = () => {
         </div>
         <div>
           <div>
-            <Image />
+            <Image
+              src={"/images/coffee.jpeg"}
+              alt="Coffee"
+              width={500}
+              height={500}
+            />
           </div>
           <div>
             <h1></h1>
