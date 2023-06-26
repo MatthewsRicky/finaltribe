@@ -14,7 +14,7 @@ const Artisans = () => {
         />
         <div className="flex flex-col gap-4 justify-center items-center p-4 min-w-[50%]">
           <h1 className="font-semibold text-xl shadow-md px-4 rounded-lg shadow-opacity-60 bg-yellow-500/20">FLORENCE IMIZA - Assembling Chief</h1>
-          <p className="min-w-[50%]">My name is Florence. I have four children. I’ve always believed that life is about supporting each other because if we take care of one another, everyone grows. I want to see my daughter grow up to be empowered just like me. Here at Tribearth, I have found peace and happiness in the work I do and I see a hopeful future ahead.</p>
+          <p className="min-w-[50%] leading-7">My name is Florence. I have four children. I’ve always believed that life is about supporting each other because if we take care of one another, everyone grows. I want to see my daughter grow up to be empowered just like me. Here at Tribearth, I have found peace and happiness in the work I do and I see a hopeful future ahead.</p>
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-4 py-2 px-4 justify-center items-center shadow-xl">
