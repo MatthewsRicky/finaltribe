@@ -18,7 +18,7 @@ const Navbar = (
 
   return (
     <div className="relative w-full">
-      <div className="w-full md:flex  justify-between bg-emerald-100/90 items-center gap-4 px-4 py-6">
+      <div className="w-full md:flex  justify-between bg-sky-200/90 items-center gap-4 px-4 py-6">
         <ul className="flex justify-between items-center">
           <li className="hover:scale-105 hover:bg-yellow-500 p-4 rounded-lg transition duration-300">
             <Link href="/">
@@ -32,7 +32,7 @@ const Navbar = (
           </li>
           <li>
             <button 
-              className="flex flex-col md:hidden rounded-full justify-center p-4 items-center hover:text-neutral-100 hover:bg-emerald-500/90 text-emerald-500/90 text-center transition-all duration-300"
+              className="flex flex-col md:hidden rounded-full justify-center p-4 items-center hover:text-neutral-100 hover:bg-sky-500/90 text-sky-500/90 text-center transition-all duration-300"
               onClick={() => setIsOpen(!isOpen)}>
                 {isOpen ? (<BiXCircle size={30} />) : (
                   
@@ -47,7 +47,7 @@ const Navbar = (
       >
         <ul className="w-full text-slate-600 flex mt-0 flex-col md:flex-row justify-around items-center transition-all duration-300 bg-opacity-60 text-xl active:font-semibold mx-4">
           <Link href="/about" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">About</li>
+            <li className="py-4 hover:bg-sky-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">About</li>
           </Link>
           <Link href="/artisans" onClick={() => setIsOpen(!isOpen)}>
             <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">Artisans</li>
