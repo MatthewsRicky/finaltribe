@@ -20,7 +20,7 @@ const Artisans = () => {
       <div className="flex flex-col md:flex-row gap-4 py-2 px-4 justify-center items-center shadow-xl">
          <div className="flex flex-col gap-4 justify-center items-center p-4 w-full">
           <h1 className="font-semibold text-xl shadow-md px-4 rounded-lg shadow-opacity-60 bg-yellow-500/20">FRED NYONGESA - Soldering King</h1>
-          <p className="min-w-[50%]">Hi, I’m Fred. I’ve been working for Tribearth for 2 years now and it’s helped me sustain myself and my family. I do all the soldering work at the workshop but my passion is creating new designs that suit Tribearth’s style. If you have a style in mind, just reach out to us and I’ll custom make a special piece just for you. </p>
+          <p className="min-w-[50%] leading-7">Hi, I’m Fred. I’ve been working for Tribearth for 2 years now and it’s helped me sustain myself and my family. I do all the soldering work at the workshop but my passion is creating new designs that suit Tribearth’s style. If you have a style in mind, just reach out to us and I’ll custom make a special piece just for you. </p>
         </div>
         <Image
           className="md:max-w-[50%] p-4 rounded-md hover:bg-yellow-500/20 transition-all duration-300"
@@ -40,13 +40,13 @@ const Artisans = () => {
         />
         <div className="flex flex-col gap-4 justify-center items-center p-4 w-full">
           <h1 className="font-semibold text-xl shadow-md px-4 rounded-lg shadow-opacity-60 bg-yellow-500/20">ADAM NGERI - Supply Chain Manager </h1>
-          <p className="min-w-[50%]">My name is Adam Neri, I was living on the streets for many years before Tribearth’s affiliated organization, LocalAid rescued me and admitted me into their children’s home. After graduating from LocalAid’s educational program, I was employed by Tribearth and I am now in charge of the supply chain and administration. Most people know me as the funny guy who sees life in a positive way, free of stress.</p>
+          <p className="min-w-[50%] leading-7">My name is Adam Neri, I was living on the streets for many years before Tribearth’s affiliated organization, LocalAid rescued me and admitted me into their children’s home. After graduating from LocalAid’s educational program, I was employed by Tribearth and I am now in charge of the supply chain and administration. Most people know me as the funny guy who sees life in a positive way, free of stress.</p>
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-4 py-2 px-4 justify-center items-center shadow-xl">
          <div className="flex flex-col gap-4 justify-center items-center p-4 w-full">
           <h1 className="font-semibold text-xl shadow-md px-4 rounded-lg shadow-opacity-60 bg-yellow-500/20">LENA INDUSA KAGONI -  Polishing Queen</h1>
-          <p className="min-w-[50%]">My name is Lena, I feel blessed to have a job right now during Covid as I know many people who have been laid off and unable to look after their family. I have 2 kids that I am able to take care of because I have a stable income. I buff and polish all of the jewelry at Tribearth to make sure they shine bright and make our customers happy. </p>
+          <p className="min-w-[50%] leading-7">My name is Lena, I feel blessed to have a job right now during Covid as I know many people who have been laid off and unable to look after their family. I have 2 kids that I am able to take care of because I have a stable income. I buff and polish all of the jewelry at Tribearth to make sure they shine bright and make our customers happy. </p>
         </div>
         <Image
           className="md:max-w-[50%] p-4 rounded-md hover:bg-yellow-500/20 transition-all duration-300"
