@@ -8,7 +8,7 @@ const Vegancafe = () => {
   return (
     <div className="flex flex-col items-center w-full">
       <div className="flex gap-4 flex-col p-8 text-center">
-        <h1>Vegan Boutique Cafe</h1>
+        <h1 className="text-4xl">Vegan Boutique Cafe</h1>
         
           <Link href={"/"}>
             <p>Our Vegan Cafe at heart is a mix of Ethiopian food, Swahili snacks and healthy Vegan bitings.</p>
