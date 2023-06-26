@@ -14,8 +14,8 @@ const Vegancafe = () => {
             <p>Our Vegan Cafe at heart is a mix of Ethiopian food, Swahili snacks and healthy Vegan bitings.</p>
           </Link>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-around">
-        <div>
+      <div className="flex flex-col md:flex-row items-center justify-around gap-8 mx-4 my-8">
+        <div className="flex flex-col gap-8">
           <div>
             <Image
               src={"/images/Fruitbowls.jpeg"}
