@@ -24,7 +24,7 @@ const Vegancafe = () => {
               height={1000}
             />
           </div>
-          <div>
+          <div className="flex flex-col p-2">
             <h1>Healthy vegan snacks</h1>
             <p>With the right ingredients, baobab, coconut milk, moringa, chocolate, peanut butter, and mango deliciousness, our smoothie bowls are just the perfect meal in a bowl.</p>
           </div>
