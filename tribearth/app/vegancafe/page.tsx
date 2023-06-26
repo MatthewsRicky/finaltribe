@@ -39,13 +39,18 @@ const Vegancafe = () => {
             />
           </div>
           <div>
-            <h1></h1>
-            <p></p>
+            <h1>Freshly roasted Ethiopian coffee</h1>
+            <p>The space brims with exciting flavors as guests marvel on freshly roasted beans on site while the coffee is being prepared on the spot. The sweet scent of frankincense burning and fusing with the coffee aroma pushes you to miss anything meaty.</p>
           </div>
         </div>
         <div>
           <div>
-            <Image />
+            <Image
+              src={"/images/anjeera.jpeg"}
+              alt="Ethiopian Platter"
+              width={500}
+              height={500}
+            />
           </div>
           <div>
             <h1></h1>
