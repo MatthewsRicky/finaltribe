@@ -50,19 +50,19 @@ const Navbar = (
             <li className="py-4 hover:bg-sky-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">About</li>
           </Link>
           <Link href="/artisans" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">Artisans</li>
+            <li className="py-4 hover:bg-sky-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">Artisans</li>
           </Link>
           <Link href="/impact" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">Impact</li>
+            <li className="py-4 hover:bg-sky-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">Impact</li>
           </Link>
           <Link href="/vegancafe" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">Vegan Cafe</li>
+            <li className="py-4 hover:bg-sky-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">Vegan Cafe</li>
           </Link>
           <Link href="/shop" onClick={() => setIsOpen(!isOpen)}>
-            <li className="py-4 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg justify-center"><DropdownMenu /></li>
+              <li className="py-4 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg justify-center"><DropdownMenu/></li>
           </Link>
           <Link href="/cart">
-            <li className="py-4 hover:bg-emerald-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 justify-center items-center text-center border-emerald-500 rounded-lg">
+            <li className="py-4 hover:bg-sky-500 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 justify-center items-center text-center border-emerald-500 rounded-lg">
               <AiFillShopping size={24} onClick={() => setIsOpen(!isOpen)} />
             </li>
           </Link>
