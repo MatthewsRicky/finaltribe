@@ -53,8 +53,8 @@ const Vegancafe = () => {
             />
           </div>
           <div>
-            <h1></h1>
-            <p></p>
+            <h1>Ethiopian platter and wraps</h1>
+            <p>Gluten free Injera with hearty traditional Ethiopian stews and vegs is one of our main meals. Something about Ethiopian platters that just tastes better when shared with friends.</p>
           </div>
         </div>
        
