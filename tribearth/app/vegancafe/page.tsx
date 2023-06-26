@@ -9,10 +9,23 @@ const Vegancafe = () => {
       <div>
         <h1>Vegan Boutique Cafe</h1>
         
-          <Link>
-            <p></p>
+          <Link href={"/"}>
+            <p>Our Vegan Cafe at heart is a mix of Ethiopian food, Swahili snacks and healthy Vegan bitings.</p>
           </Link>
-        
+      </div>
+      <div>
+        <div>
+          <div></div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </div>
   )
