@@ -18,7 +18,7 @@ const Navbar = (
 
   return (
     <div className="relative w-full">
-      <div className="w-full md:flex  justify-between bg-emerald-200/90 items-center gap-4 px-4 py-6">
+      <div className="w-full flex md:flex justify-between bg-emerald-200/90 items-center gap-4 px-4 py-6">
         <ul className="flex justify-between items-center">
           <li className="hover:scale-105 hover:bg-yellow-500 p-4 rounded-lg transition duration-300">
             <Link href="/">
@@ -32,7 +32,7 @@ const Navbar = (
           </li>
           <li>
             <button 
-              className="flex flex-col md:hidden rounded-full justify-center p-4 items-center hover:text-neutral-100 hover:bg-sky-500/90 text-sky-500/90 text-center transition-all duration-300"
+              className="flex flex-col md:hidden rounded-full justify-center p-4 items-center hover:text-neutral-100 hover:bg-emerald-500/90 text-sky-500/90 text-center transition-all duration-300"
               onClick={() => setIsOpen(!isOpen)}>
                 {isOpen ? (<BiXCircle size={30} />) : (
                   
