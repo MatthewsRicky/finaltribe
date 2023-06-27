@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div>
+    <div className="pt-32">
       <div className="relative wrap bg-emerald-200/10 rounded-md shadow-lg 
       text-slate-500 m-4 flex flex-col md:flex-row justify-between gap-4 p-4">
         <div className="flex min-w-[50%] justify-center items-center text-center flex-col gap-4 w-80">
