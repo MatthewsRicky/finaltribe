@@ -16,7 +16,7 @@ const Vegancafe = () => {
       </div>
       <div className="flex flex-col md:flex-row items-center justify-around gap-8 mx-4 my-8">
         <div className="flex flex-col gap-8">
-          <div className="flex justify-center items-center shadow-lg p-0">
+          <div className="flex justify-center items-center rounded-md">
             <Image
               src={"/images/Fruitbowls.jpeg"}
               alt="Fruit Bowls"
