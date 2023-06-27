@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Impact = () => {
   return (
-    <div className="w-full relative flex flex-col">
+    <div className="w-full pt-32 relative flex flex-col">
       <div className="grid gap-x-6 gap-y-6 grid-row-1 md:grid-cols-2 justify-around items-center relative transition-all hover:bg-gradient-to-b from-yellow-500/20 to-emerald-300/20 duration-300 p-8 my-4 mx-4 shadow-lg">
         <div className="flex flex-col gap-y-2 shadow-lg hover:scale-105 hover:bg-white">
           <h1  className="flex font-semibold justify-center m-2 p-2 rounded-md z-10 bg-yellow-500/40 left-[40%] text-xl md:text-2xl shadow-lg hover:scale-105">Ethical Gemstones</h1>
