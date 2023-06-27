@@ -30,7 +30,7 @@ const Vegancafe = () => {
           </div>
         </div>
         <div>
-          <div>
+          <div className="flex justify-center items-center rounded-md">
             <Image
               src={"/images/coffee.jpeg"}
               alt="Coffee"
@@ -44,7 +44,7 @@ const Vegancafe = () => {
           </div>
         </div>
         <div>
-          <div>
+          <div className="flex justify-center items-center rounded-md">
             <Image
               src={"/images/anjeera.jpeg"}
               alt="Ethiopian Platter"
