@@ -48,8 +48,8 @@ const Vegancafe = () => {
             <Image
               src={"/images/anjeera.jpeg"}
               alt="Ethiopian Platter"
-              width={500}
-              height={100}
+              width={1000}
+              height={500}
             />
           </div>
           <div>
