@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Artisans = () => {
   return (
-    <div className="relative w-full text-slate-500 flex justify-center items-center flex-col">
+    <div className="pt-32 relative w-full text-slate-500 flex justify-center items-center flex-col">
       <h1 className="flex text-2xl md:text-3xl py-20 px-10 hover:animate-pulse">Each artisan we employ has a story and we want you to know it</h1>
       <div className="flex flex-col-reverse md:flex-row gap-8 m-10 py-2 px-4 justify-center items-center shadow-xl">
         <Image
