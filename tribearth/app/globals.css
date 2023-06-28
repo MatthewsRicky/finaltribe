@@ -12,3 +12,7 @@
   background-size: cover;
   display: flex;
 }
+
+:root {
+  --marrs-green: rgb(0, 140, 140)
+}
