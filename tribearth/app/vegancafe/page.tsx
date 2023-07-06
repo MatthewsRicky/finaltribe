@@ -11,7 +11,7 @@ const Vegancafe = () => {
         <h1 className="text-4xl md:text-5xl xl:text-6xl text-emerald-500/90">Vegan Boutique Cafe</h1>
         
           <Link href={"/"}>
-            <p className="italic hover:text-emerald-500 shadow px-2">"Our Vegan Cafe at heart is a mix of Ethiopian food, Swahili snacks and healthy Vegan bitings"</p>
+            <p className="italic hover:text-emerald-500 shadow px-2 py-4"> "Our Vegan Cafe at heart is a mix of Ethiopian food, Swahili snacks and healthy Vegan bitings"</p>
           </Link>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-around gap-8 mx-4 my-8">
