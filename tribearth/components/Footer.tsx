@@ -4,14 +4,14 @@ const Footer = () => {
   return (
     <div className="w-full bg-emerald-100/90 justify-around items-center flex flex-col">
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center px-10 gap-4">
-        <div className="flex flex-col gap-y-3">
+        <div className="flex flex-col gap-y-3 my-3">
           <h1 className="text-lg font-medium">CUSTOMER DETAILS</h1>
           <div className="text-lg">
             <p>Tribearth,</p>
             <p>P.O. Box 00100,50600</p>
             <p>Diani Beach Rd (between Bazaar & Kaskazi) Diani, Kenya.</p>
           </div>
-          <div>
+          <div className="text-lg">
             <p>T: +254 706 030625</p>
             <p>Email: hello@tribearth.org</p>
           </div>
