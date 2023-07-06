@@ -14,7 +14,7 @@ const Vegancafe = () => {
             <p className="italic hover:text-emerald-500 shadow px-2 py-4">"Our Vegan Cafe at heart is a mix of Ethiopian food, Swahili snacks and healthy Vegan bitings"</p>
           </Link>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-around gap-8 mx-4 my-8">
+      <div className="flex flex-col md:flex-row items-base justify-around gap-8 mx-4 my-8">
         <div className="flex flex-col gap-8">
           <div className="flex justify-center items-center w-full rounded-md">
             <Image
