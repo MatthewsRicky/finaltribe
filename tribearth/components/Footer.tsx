@@ -19,9 +19,12 @@ const Footer = () => {
         <div>
           <div>
             <h1 className="text-lg font-medium">STORY</h1>
+            <div>
             <p>ABOUT US</p>
             <p>IMPACT</p>
             <p>ARTISANS</p>
+            </div>
+            
           </div>
           <div>
             <h1 className="text-lg font-medium">CUSTOMER CARE</h1>
