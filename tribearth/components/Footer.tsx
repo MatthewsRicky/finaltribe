@@ -34,8 +34,8 @@ const Footer = () => {
         <div>CONTACT US</div>
         <div>SUBSCRIBE</div>
       </div>
-      <div className="w-full text-center bg-emerald-200/90">Copyright 2023. Tribearth.</div>
-      <div className="w-full text-center bg-emerald-300/90">All Right Reserved</div>
+      <div className="w-full text-center bg-emerald-200/90 py-2 shadow-b-xl">Copyright 2023. Tribearth.</div>
+      <div className="w-full text-center bg-emerald-300/90 py-2 shadow-b-xl">All Right Reserved</div>
     </div>
   )
 }
