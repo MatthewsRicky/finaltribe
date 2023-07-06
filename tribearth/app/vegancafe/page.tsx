@@ -39,7 +39,7 @@ const Vegancafe = () => {
             />
           </div>
           <div className="flex flex-col gap-4 items-center justify-center text-center p-2">
-            <h1 className="font-semibold text-lg">Freshly roasted Ethiopian coffee</h1>
+            <h1 className="font-semibold text-lg md:text-xl lg:text-2xl ">Freshly roasted Ethiopian coffee</h1>
             <p className="text-md md:text-lg lg:text-xl font-medium">The space brims with exciting flavors as guests marvel on freshly roasted beans on site while the coffee is being prepared on the spot. The sweet scent of frankincense burning and fusing with the coffee aroma pushes you to miss anything meaty.</p>
           </div>
         </div>
