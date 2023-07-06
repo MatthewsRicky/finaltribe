@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="w-full bg-emerald-100/90 justify-around items-center flex flex-col">
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center px-10 gap-4">
         <div className="flex flex-col gap-y-3">
-          <h1>CUSTOMER DETAILS</h1>
+          <h1 className="text-lg font-medium">CUSTOMER DETAILS</h1>
           <div>
             <p>Tribearth,</p>
             <p>P.O. Box 00100,50600</p>
