@@ -53,7 +53,7 @@ const Vegancafe = () => {
             />
           </div>
           <div className="flex flex-col gap-4 items-center justify-center text-center p-2">
-            <h1 className="font-semibold text-lg">Ethiopian platter and wraps</h1>
+            <h1 className="font-semibold md:text-xl lg:text-2xl text-lg">Ethiopian platter and wraps</h1>
             <p className="text-md md:text-lg lg:text-xl font-medium">Gluten free Injera with hearty traditional Ethiopian stews and vegs is one of our main meals. Something about Ethiopian platters that just tastes better when shared with friends.</p>
           </div>
         </div>
