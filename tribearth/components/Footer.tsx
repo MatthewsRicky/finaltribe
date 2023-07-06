@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-emerald-100/90 justify-around items-center flex flex-col">
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center px-10 gap-4">
-        <div className="flex flex-col gap-y-3 my-3">
+        <div className="flex flex-col gap-y-3 my-3 ">
           <h1 className="text-lg font-medium">CUSTOMER DETAILS</h1>
           <div className="text-lg">
             <p>Tribearth,</p>
@@ -18,13 +18,13 @@ const Footer = () => {
         </div>
         <div>
           <div>
-            <h1>STORY</h1>
+            <h1 className="text-lg font-medium">STORY</h1>
             <p>ABOUT US</p>
             <p>IMPACT</p>
             <p>ARTISANS</p>
           </div>
           <div>
-            <h1>CUSTOMER CARE</h1>
+            <h1 className="text-lg font-medium">CUSTOMER CARE</h1>
             <p>PRIVACY POLICY</p>
             <p>TERMS & CONDITIONS</p>
             <p>SHIPPING & RETURNS</p>
