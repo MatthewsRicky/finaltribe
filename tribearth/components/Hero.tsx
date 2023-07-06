@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 const Hero = () => {
@@ -12,7 +13,10 @@ const Hero = () => {
         onClick={() => {}}
         className="bg-yellow-400/80 rounded-lg py-4 px-3 text-center text-slate-700/80 text-xl md:text-2xl lg:text-3xl font-semibold lg:font-bold hover:scale-105 cursor-pointer transition-all duration-300"
       >
-        Explore
+        <Link href={"/shop"}>
+          Explore
+        </Link>
+        
       </button>
     </div>
   )
