@@ -17,18 +17,18 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <div>
+          <div className="flex flex-col gap-y-3 my-3 ">
             <h1 className="text-lg font-medium">STORY</h1>
-            <div>
+            <div className="text-lg">
               <p>ABOUT US</p>
               <p>IMPACT</p>
               <p>ARTISANS</p>
             </div>
             
           </div>
-          <div>
+          <div className="flex flex-col gap-y-3 my-3 ">
             <h1 className="text-lg font-medium">CUSTOMER CARE</h1>
-            <div>
+            <div className="text-lg">
               <p>PRIVACY POLICY</p>
               <p>TERMS & CONDITIONS</p>
               <p>SHIPPING & RETURNS</p>
