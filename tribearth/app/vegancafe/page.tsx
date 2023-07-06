@@ -39,7 +39,7 @@ const Vegancafe = () => {
             />
           </div>
           <div className="flex flex-col gap-4 items-center justify-center text-center p-2">
-            <h1>Freshly roasted Ethiopian coffee</h1>
+            <h1 className="font-semibold text-lg">Freshly roasted Ethiopian coffee</h1>
             <p>The space brims with exciting flavors as guests marvel on freshly roasted beans on site while the coffee is being prepared on the spot. The sweet scent of frankincense burning and fusing with the coffee aroma pushes you to miss anything meaty.</p>
           </div>
         </div>
@@ -53,7 +53,7 @@ const Vegancafe = () => {
             />
           </div>
           <div className="flex flex-col gap-4 items-center justify-center text-center p-2">
-            <h1>Ethiopian platter and wraps</h1>
+            <h1 className="font-semibold text-lg">Ethiopian platter and wraps</h1>
             <p>Gluten free Injera with hearty traditional Ethiopian stews and vegs is one of our main meals. Something about Ethiopian platters that just tastes better when shared with friends.</p>
           </div>
         </div>
