@@ -34,8 +34,8 @@ const Vegancafe = () => {
             <Image
               src={"/images/coffee.jpeg"}
               alt="Coffee"
-              width={500}
-              height={500}
+              width={300}
+              height={200}
             />
           </div>
           <div className="flex flex-col gap-4 items-center justify-center text-center p-2">
