@@ -35,6 +35,11 @@
  
     --radius: 0.5rem;
   }
+
+  .hero {
+    background-image: url(/images/hero.jpg);
+    background-repeat: no-repeat;
+  }
  
   .dark {
     --background: 0 0% 3.9%;
