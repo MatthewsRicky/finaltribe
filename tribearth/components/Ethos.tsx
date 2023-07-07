@@ -2,7 +2,9 @@
 
 const Ethos = () => {
   return (
-    <div>Ethos</div>
+    <div>
+      Ethos
+    </div>
   )
 }
 
