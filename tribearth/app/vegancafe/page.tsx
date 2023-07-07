@@ -57,7 +57,6 @@ const Vegancafe = () => {
             <p className="text-md md:text-lg lg:text-xl font-medium">Gluten free Injera with hearty traditional Ethiopian stews and vegs is one of our main meals. Something about Ethiopian platters that just tastes better when shared with friends.</p>
           </div>
         </div>
-       
       </div>
     </div>
   )
