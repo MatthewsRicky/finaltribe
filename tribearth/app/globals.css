@@ -39,6 +39,9 @@
   .hero {
     background-image: url(/images/hero.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+    width: 100vw;
   }
  
   .dark {
