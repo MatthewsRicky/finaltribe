@@ -45,7 +45,7 @@ const Navbar = () => {
 							href="/about"
 							onClick={() => setIsOpen(!isOpen)}
 						>
-							<li className="py-4 hover:shadow-md hover:shadow-yellow-300/60 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">
+							<li className="py-4 hover:shadow-md hover:shadow-yellow-300/60 hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">
 								About
 							</li>
 						</Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
 							href="/artisans"
 							onClick={() => setIsOpen(!isOpen)}
 						>
-							<li className="py-4 hover:shadow-md hover:shadow-yellow-300/60 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">
+							<li className="py-4 hover:shadow-md hover:shadow-yellow-300/60 hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">
 								Artisans
 							</li>
 						</Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
 							href="/impact"
 							onClick={() => setIsOpen(!isOpen)}
 						>
-							<li className="py-4 hover:shadow-md hover:shadow-yellow-300/60 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">
+							<li className="py-4 hover:shadow-md hover:shadow-yellow-300/60 hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">
 								Impact
 							</li>
 						</Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
 							href="/vegancafe"
 							onClick={() => setIsOpen(!isOpen)}
 						>
-							<li className="py-4 hover:shadow-md hover:shadow-yellow-300/60 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">
+							<li className="py-4 hover:shadow-md hover:shadow-yellow-300/60 hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg ">
 								Vegan Cafe
 							</li>
 						</Link>
@@ -82,7 +82,7 @@ const Navbar = () => {
 							</li>
 						</Link>
 						<Link href="/cart">
-							<li className="py-4 hover:shadow-md hover:shadow-yellow-300/60 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 justify-center items-center text-center border-emerald-500 rounded-lg">
+							<li className="py-4 hover:shadow-md hover:shadow-yellow-300/60 hover:scale-105 w-full border-b-2 md:border-none mx-4 justify-center items-center text-center border-emerald-500 rounded-lg">
 								<AiFillShopping
 									size={24}
 									onClick={() => setIsOpen(!isOpen)}
