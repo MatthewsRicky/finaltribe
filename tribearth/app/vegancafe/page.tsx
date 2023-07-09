@@ -40,7 +40,7 @@ const Vegancafe = () => {
 						</p>
 					</div>
 				</div>
-				<div>
+				<div className="flex p-2 flex-col gap-8 hover:shadow-lg hover:shadow-emerald-200/60">
 					<div className="flex w-full justify-center items-center rounded-md">
 						<Image
 							src={"/images/coffee.jpeg"}
@@ -62,7 +62,7 @@ const Vegancafe = () => {
 						</p>
 					</div>
 				</div>
-				<div>
+				<div className="flex p-2 flex-col gap-8 hover:shadow-lg hover:shadow-emerald-200/60">
 					<div className="flex w-full justify-center items-center rounded-md">
 						<Image
 							src={"/images/anjeera.jpeg"}
