@@ -33,13 +33,13 @@ const Navbar = () => {
 						>
 							{isOpen ? (
 								<BiXCircle
-									size={30}
-									className="shadow-emerald-400/70 p-4 rounded-full shadow-md"
+									size={50}
+									className="shadow-emerald-400/70 p-1.5 rounded-full shadow-md"
 								/>
 							) : (
 								<AiOutlineMenu
-									size={30}
-									className="shadow-emerald-400/70 p-4 rounded-full shadow-md"
+									size={50}
+									className="shadow-emerald-400/70 p-1.5 rounded-full shadow-md"
 								/>
 							)}
 						</button>
