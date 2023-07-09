@@ -1,5 +1,6 @@
 "use client";
 
+import Card from "@/components/Card";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -48,6 +49,7 @@ const Vegancafe = () => {
 							height={200}
 						/>
 					</div>
+
 					<div className="flex flex-col gap-4 items-center justify-center text-center p-2">
 						<h1 className="font-semibold text-lg md:text-xl lg:text-2xl ">
 							Freshly roasted Ethiopian coffee
@@ -80,6 +82,10 @@ const Vegancafe = () => {
 						</p>
 					</div>
 				</div>
+				<Card
+					title={"Beans"}
+					image={""}
+				/>
 			</div>
 		</div>
 	);
