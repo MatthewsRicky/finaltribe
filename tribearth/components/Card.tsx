@@ -1,7 +1,12 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const Card = ({ image, title }) => {
+interface CardProps {
+	image: string;
+	title: string;
+}
+
+const Card: React.FC<CardProps> = ({ image, title }) => {
 	const [isHovered, setIsHovered] = useState(false);
 
 	const handleMouseEnter = () => {
@@ -23,11 +28,12 @@ const Card = ({ image, title }) => {
 			<Image
 				src={image}
 				alt="Card Image"
-				className="w-full h-auto"
+				width={3000}
+				height={3000}
 			/>
 
 			{isHovered && (
-				<div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-emerald-500/60 to-transparent flex items-center justify-center text-white text-xl font-semibold">
+				<div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-emerald-500/60 to-transparent flex items-center justify-center text-white text-xl font-semibold">
 					{title}
 				</div>
 			)}
