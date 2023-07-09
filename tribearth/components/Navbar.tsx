@@ -14,7 +14,7 @@ const Navbar = () => {
 
 	return (
 		<div className="relative w-full">
-			<div className="w-full md:fixed bg-white/60 z-10 top-0  md:flex justify-between hover:shadow-emerald-100/70 hover:shadow-lg items-center gap-4 px-4 py-2">
+			<div className="w-full md:fixed bg-white/90 z-10 top-0  md:flex justify-between hover:shadow-emerald-100/70 hover:shadow-lg items-center gap-4 px-4 py-2">
 				<ul className="flex justify-between items-center">
 					<li className="hover:scale-105 hover:shadow-md hover:shadow-emerald-500 p-4 rounded-lg transition duration-300">
 						<Link href="/">
