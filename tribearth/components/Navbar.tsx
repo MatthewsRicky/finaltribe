@@ -31,7 +31,17 @@ const Navbar = () => {
 							className="flex flex-col md:hidden rounded-full justify-center p-4 items-center hover:text-neutral-100 hover:bg-emerald-500/90 text-emerald-500/90 text-center transition-all duration-300"
 							onClick={() => setIsOpen(!isOpen)}
 						>
-							{isOpen ? <BiXCircle size={30} /> : <AiOutlineMenu size={30} />}
+							{isOpen ? (
+								<BiXCircle
+									size={30}
+									className="shadow-emerald-400/70 shadow-md"
+								/>
+							) : (
+								<AiOutlineMenu
+									size={30}
+									className="shadow-emerald-400/70 shadow-md"
+								/>
+							)}
 						</button>
 					</li>
 				</ul>
