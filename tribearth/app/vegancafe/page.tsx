@@ -13,7 +13,7 @@ const Vegancafe = () => {
 				</h1>
 
 				<Link href={"/"}>
-					<p className="italic hover:text-emerald-500 shadow px-2 py-4 rounded-md bg-slate-400/40">
+					<p className="italic hover:text-slate-950 hover:shadow-lg px-2 py-4 rounded-md hover:shadow-emerald-400/40">
 						"Our Vegan Cafe at heart is a mix of Ethiopian food, Swahili snacks
 						and healthy Vegan bitings"
 					</p>
