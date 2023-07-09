@@ -20,7 +20,7 @@ const Vegancafe = () => {
 				</Link>
 			</div>
 			<div className="flex border-spacing-2 p-2 shadow-lg  flex-col md:flex-row items-base justify-around gap-8 mx-4 my-8">
-				<div className="flex p-2 flex-col gap-8 hover:shadow-xl hover:shadow-emerald-500">
+				<div className="flex p-2 flex-col gap-8 hover:shadow-lg hover:shadow-emerald-200/60">
 					<div className="flex justify-center items-center w-full rounded-md ">
 						<Image
 							src={"/images/Fruitbowls.jpeg"}
