@@ -82,11 +82,11 @@ const Vegancafe = () => {
 						</p>
 					</div>
 				</div>
-				<Card
-					title={"Beans"}
-					image={""}
-				/>
 			</div>
+			<Card
+				title={"Beans"}
+				image={"/images/anjeera.jpeg"}
+			/>
 		</div>
 	);
 };
