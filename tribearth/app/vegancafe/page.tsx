@@ -84,7 +84,7 @@ const Vegancafe = () => {
 				</div>
 			</div>
 			<Card
-				title={"Beans"}
+				title={"Ethiopian Platter"}
 				image={"/images/anjeera.jpeg"}
 			/>
 		</div>
