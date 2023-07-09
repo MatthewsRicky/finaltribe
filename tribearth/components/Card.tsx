@@ -28,12 +28,12 @@ const Card: React.FC<CardProps> = ({ image, title }) => {
 			<Image
 				src={image}
 				alt="Card Image"
-				width={3000}
-				height={3000}
+				width={350}
+				height={350}
 			/>
 
 			{isHovered && (
-				<div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-emerald-500/60 to-transparent flex items-center justify-center text-white text-xl font-semibold">
+				<div className="absolute top-0 w-[350px] h-full bg-gradient-to-t from-emerald-500/60 to-transparent flex items-center justify-center text-white text-xl font-semibold">
 					{title}
 				</div>
 			)}
