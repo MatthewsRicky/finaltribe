@@ -77,7 +77,7 @@ const Navbar = () => {
 							href="/shop"
 							onClick={() => setIsOpen(!isOpen)}
 						>
-							<li className="py-4 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 rounded-lg justify-center">
+							<li className="py-4 hover:text-white hover:scale-105 w-full border-b-2 md:border-none mx-4 text-center border-emerald-500 flex items-center rounded-lg justify-center">
 								<DropdownMenu />
 							</li>
 						</Link>
