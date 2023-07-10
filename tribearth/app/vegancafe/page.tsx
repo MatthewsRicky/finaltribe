@@ -83,7 +83,7 @@ const Vegancafe = () => {
 					</div>
 				</div>
 			</div>
-			<div className="w-[50%]">
+			<div className="w-[50%] m-4 flex">
 				<Card
 					title={"Ethiopian Platter"}
 					image={"/images/anjeera.jpeg"}
