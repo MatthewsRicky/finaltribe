@@ -20,20 +20,21 @@ const Card: React.FC<CardProps> = ({ image, title }) => {
 	return (
 		<div
 			className={`relative overflow-hidden ${
-				isHovered ? "shadow-lg rounded-lg" : ""
+				isHovered ? "shadow-lg shadow-emerald-400/60 rounded-lg" : ""
 			}`}
 			onMouseEnter={handleMouseEnter}
 			onMouseLeave={handleMouseLeave}
 		>
 			<Image
+				className="rounded-lg"
 				src={image}
 				alt="Card Image"
-				width={350}
+				width={1000}
 				height={350}
 			/>
 
 			{isHovered && (
-				<div className="absolute top-0  w-[350px] h-full bg-gradient-to-t from-emerald-500/60 to-transparent flex items-center justify-center text-white text-xl font-semibold">
+				<div className="absolute top-0  w-full h-full bg-gradient-to-t from-emerald-500/60 to-transparent flex items-center justify-center text-white text-xl font-semibold transition-all duration-500">
 					{title}
 				</div>
 			)}
