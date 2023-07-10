@@ -14,7 +14,6 @@ const DropdownMenu = () => {
 		<div className="relative">
 			<button
 				onMouseOver={toggleMenu}
-				onMouseOut={toggleMenu}
 				className="flex text-center items-center text-yellow-500 hover:bg-yellow-500 py-4 px-4 hover:text-white rounded-lg "
 			>
 				Shop
